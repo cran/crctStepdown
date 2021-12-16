@@ -10,11 +10,12 @@ conf_int_search(
   actual_tr,
   start,
   nsteps = 1000,
-  alpha = 0.025,
+  alpha = 0.05,
   plots = TRUE,
   cl_var = "cl",
   rand_func = NULL,
-  verbose = TRUE
+  verbose = TRUE,
+  type = "rw"
 )
 }
 \arguments{
@@ -43,6 +44,9 @@ two columns of cl_var and t identifying the cluster ID and time period a cluster
 the treatment group.  If NULL then clusters are randomised in a 1:1 ratio to treatment and control}
 
 \item{verbose}{Logical indicating whether to provide verbose output showing progress and estimates}
+
+\item{type}{Method of correction: options are "rw" = Romano-Wolf randomisation test based stepdown, "h"
+= Holm standard stepdown, "b" = Bonferroni, or "none" for no correction.}
 }
 \value{
 A vector of length p with the estimates of the limits

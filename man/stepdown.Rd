@@ -13,6 +13,7 @@ stepdown(
   plots = TRUE,
   n_permute = 1000,
   nsteps = 1000,
+  type = "rw",
   rand_func = NULL,
   confint = TRUE,
   verbose = TRUE
@@ -37,6 +38,10 @@ interval search during running of function. Default is TRUE}
 \item{n_permute}{Number of permutations of the randomisation test to run}
 
 \item{nsteps}{Number of steps of the confidence interval search process}
+
+\item{type}{Method of correction: options are "rw" = Romano-Wolf randomisation test based stepdown, "h"
+= Holm standard stepdown, "h" = Holm stepdown using randomisation test, "b" = standard Bonferroni, "br" =
+Bonerroni using randomisation test, or "none" = randomisation test with no correction.}
 
 \item{rand_func}{String of the name of a function that re-randomises the clusters. The function should
 produce a data frame that identifies the clusters in the treatment group under the new
