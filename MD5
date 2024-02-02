@@ -1,4 +1,4 @@
-9659a87a6538b44f09938ea4504d3a80 *DESCRIPTION
+3b593cd979120188080854bbffde8fdd *DESCRIPTION
 d269e82800d2f8fb25aad44800f73cd9 *NAMESPACE
 a45daa86a3b257d63c45e83197fd71ab *R/RcppExports.R
 567bb65c11c7c03a63db17b32741de12 *R/crctStepdown-package.R
@@ -23,6 +23,6 @@ eca139fa8d46d4c72ab0d34a68203bf3 *man/twoarm_sim.Rd
 3053b656568c019ee5f926deb128cc49 *src/openmp_utils.cpp
 9feb22830ca93fb5df92d6b68c76be51 *src/openmpheader.h
 470fc14a14de47cdf7947c4598c920b6 *src/permutation.cpp
-9db9a9876b42eec6d6843c2b3d721513 *src/simple_lm.cpp
+346c345831279f1d808ed78095a5c9ab *src/simple_lm.cpp
 31a82e87c41b1ccc2de143356703941e *tests/testthat.R
 6e9cd0fc3af62107fb819a2de2c53ebd *tests/testthat/test-test.R
